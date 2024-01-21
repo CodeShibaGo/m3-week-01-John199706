@@ -1,2 +1,7 @@
 def reverse_string(s):
-    pass
+  a=s[::-1]
+  return a
+result = reverse_string("hello")
+print(result)
+
+
