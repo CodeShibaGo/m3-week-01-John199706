@@ -1,2 +1,7 @@
 def century(year):
-    pass
+    if year%100==0:
+        x=int(year/100)
+    else:
+        x=int(year/100)+1
+    return x
+
